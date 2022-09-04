@@ -1,0 +1,176 @@
+@media only screen and (max-width: 1200px) {
+    .about .about-container{
+        width: 80%;
+    }
+    .about .half-sec .img-photo{
+        width: 280px;
+    }
+    .about .half-sec .img-border{
+        width: 280px;
+        height: 340px;
+    }
+    .main-sec h2::before{
+        left: 46%;
+    }
+    .main-sec h2::after{
+        left: 41%;
+    }
+    .main-sec .container{
+        width: 90%;
+    }
+    .main-sec .feedback{
+        width: 80%;
+    }
+    .main-sec .feedback::after{
+        top: -200px; 
+    }
+    .main-sec .buttons{
+        width: 10%;
+    }
+    iframe{
+        height: 182px;
+    }
+    
+    
+    @media only screen and (max-width: 992px) {
+        .about .about-container{
+            width: 100%;
+        }
+        .about .half-sec .img-photo{
+            width: 320px;
+        }
+        .about .half-sec .img-border{
+            width: 320px;
+            height: 440px;
+            border: none;
+            width: 100%;
+            margin: 0 auto;
+            top: 0;
+            left: 0;
+        }
+        .main-sec h2::after{
+            left: 40%;
+        }
+        .main-sec .container{
+            width: 90%;
+        }
+        .main-sec .service-detail{
+            width: 50%;
+        }
+        .container .protfolio-detail{
+            width: 50%;
+        }
+        .main-sec .feedback{
+            width: 60%;
+            padding: 20px;
+        }
+        .main-sec .feedback::after{
+            top: -300px;
+            width: 50%;
+        }
+        .feedback .feedback-item img{
+            float: none;
+            width: 30%;
+        }
+        .feedback .feedback-content{
+            float: none;
+            left: 0px;
+            width: 85%;
+        }
+        .main-sec .buttons{
+            width: 10%;
+        }
+        iframe{
+            height: 135px;
+        }
+        .contact{
+            width: 75%;
+        }
+
+        
+    }
+    
+@media only screen and (max-width: 768px) {
+    .screen .contant h1{
+        font-size: 38px;
+    }
+    .screen .contant h3{
+        font-size: 22px;
+    }
+    .screen .contant h4{
+        font-size: 18px;
+    }
+    .about .about-container{
+        width: 50%;
+    }
+    .about .half-sec{
+        width: 100%;
+    }
+    .about .half-sec .img-photo{
+        position: absolute;
+        width: 100%;
+        top:0;
+        left: 0;
+    }
+    .main-sec h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .main-sec h2::before{
+        left: 45%;
+    }
+    .main-sec h2::after{
+        left: 37%;
+    }
+    .main-sec .container{
+        width: 60%;    
+    }
+    .main-sec .service-detail{
+        width: 100%;
+        padding: 0 20px 0 20px 0;
+    }
+    .container .protfolio-detail{
+        width: 100%;
+    }
+    .container .counter{
+        width: 100%;
+    }
+    .container .counter h3{
+        padding: 8px;
+    }
+    .main-sec .feedback{
+        width: 70%;
+        padding: 20px;
+    }
+    .main-sec .feedback::after{
+        top: -350px;
+    }
+    .feedback .feedback-content{
+        width: 90%;
+    }
+    .main-sec .buttons{
+        width: 15%;
+    } 
+    .main-sec .blog-item{
+        width: 100%;
+        float: none;
+        padding: 15px;
+    }
+    iframe{
+        height: 182px;
+    }
+    .contact{
+        width: 60%;
+    }
+    .contact .min-input{
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+    .contact .input{
+        padding: 10px;
+    }
+
+}
+
+}
